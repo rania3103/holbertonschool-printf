@@ -7,7 +7,7 @@ int _printf(const char *format, ...)
 	va_list args;
 
 	va_start (va_list, args);
-	if (*format)
+	/*if (*format)
 	{
 		while(format[i])
 		{
@@ -18,6 +18,6 @@ int _printf(const char *format, ...)
 			i++;
 			va_arg(args, char*);
 		}
-	}
+	}*/
 	va_end(args);
 }
