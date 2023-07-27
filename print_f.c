@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 				if (func_ptr)
 					{
 						i += func_ptr(args);
-					i++;
+						i++;
 					}
 				continue;
 			}
