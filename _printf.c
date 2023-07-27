@@ -8,11 +8,15 @@
 int _printf(const char *format, ...)
 {
 	int i = 0;
+	int count = 0;
 	va_list args;
 	int (*func_ptr)(va_list);
 
+	if (format == NULL)
+	{
+		return (-1);
+	}
 	va_start(args, format);
-
 	if (*format)
 	{
 		while (format[i])
@@ -22,14 +26,16 @@ int _printf(const char *format, ...)
 				func_ptr = get_func(format[i + 1]);
 				if (func_ptr)
 				{
-					i += func_ptr(args);
-					i++;
+					count += func_ptr(args);
+					i += 2;
+					continue;
 				}
-				continue;
 			}
-			_putchar(format[i++]);
+			_putchar(format[i]);
+			i++;
+			count++;
 		}
 	}
 	va_end(args);
-	return (i);
+	return (count);
 }
