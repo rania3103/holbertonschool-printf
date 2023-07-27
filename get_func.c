@@ -1,13 +1,12 @@
 #include "main.h"
 /**
  * get_func - determine printing function
- * @args:number of arguments
+ * @s: character
  * Return: 1 (on success)
 */
 int (*get_func(char s))(va_list)
 {
-	type_t types[] =
-	{
+	type_t types[] = {
 		{'c', print_c},
 		{'s', print_s},
 		{'%', print_100},
@@ -17,7 +16,7 @@ int (*get_func(char s))(va_list)
 
 	while (types[i].f != NULL)
 	{
-		if(s == types[i].opt)
+		if (s == types[i].opt)
 		{
 			return (types[i].f);
 		}

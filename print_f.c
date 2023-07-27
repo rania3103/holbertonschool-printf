@@ -11,14 +11,16 @@ int _printf(const char *format, ...)
 
 	if (*format)
 	{
-		while(format[i])
+		while (format[i])
 		{
-			if(format[i] == '%')
+			if (format[i] == '%')
 			{
-				func_ptr = get_func(format[i+1]);
+				func_ptr = get_func(format[i + 1]);
 				if (func_ptr)
-					{i += func_ptr(args);
-					i++;}
+				{
+					i += func_ptr(args);
+					i++;
+				}
 				continue;
 			}
 			_putchar(format[i++]);

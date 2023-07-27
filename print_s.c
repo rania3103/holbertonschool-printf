@@ -13,7 +13,7 @@ int print_s(va_list args)
 	str = va_arg(args, char*);
 	if (str)
 	{
-		while(str[i] != '\0')
+		while (str[i] != '\0')
 		{
 			_putchar(str[i]);
 			i++;

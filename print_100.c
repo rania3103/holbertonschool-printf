@@ -6,7 +6,7 @@
 */
 int print_100(va_list args)
 {
-    (void)args;
-    _putchar('%');
-    return (1);
+	(void)args;
+	_putchar('%');
+	return (1);
 }
