@@ -17,8 +17,10 @@ int _printf(const char *format, ...)
 			{
 				func_ptr = get_func(format[i+1]);
 				if (func_ptr)
-					{i += func_ptr(args);
-					i++;}
+					{
+						i += func_ptr(args);
+					i++;
+					}
 				continue;
 			}
 			_putchar(format[i++]);
