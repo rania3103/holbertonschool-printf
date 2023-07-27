@@ -2,7 +2,11 @@
 #define printf_f
 #include <stdarg.h>
 #include <string.h>
-
+/**
+ * struct type_s - Struct type_s
+ * @opt: options
+ * @f: the associated function
+ */
 typedef struct type_s
 {
 	char opt;
