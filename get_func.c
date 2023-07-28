@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * get_func - determine printing function
- * @s: string 
+ * @s: string
  * Return: the desired function or NULL
 */
 int (*get_func(char s))(va_list)
