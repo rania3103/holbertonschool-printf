@@ -67,7 +67,7 @@ int print_d(va_list args)
 	int i = 0;
 	int div = 1;
 	int numb = va_arg(args, int);
-	int tmp;
+	int tmp = numb;
 
 	if (numb < 0)
 	{
@@ -75,7 +75,6 @@ int print_d(va_list args)
 		i++;
 		tmp = -numb;
 	}
-	tmp = numb;
 	while (tmp / div > 9)
 	{
 		div *= 10;
