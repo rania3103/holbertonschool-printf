@@ -26,8 +26,6 @@ int _printf(const char *format, ...)
 			if (format[i] == '%')
 			{
 				func_ptr = get_func(format[i + 1]);
-				/*if (format[i + 1] == '\0')
-					return (-1);*/
 				if (func_ptr)
 				{
 					count += func_ptr(args);
