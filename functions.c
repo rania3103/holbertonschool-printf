@@ -73,7 +73,7 @@ int print_d(va_list args)
 	{
 		_putchar('-');
 		i++;
-		numb = -numb;
+		tmp = -numb;
 	}
 	tmp = numb;
 	while (tmp / div > 9)
@@ -83,9 +83,9 @@ int print_d(va_list args)
 	while (div != 0)
 	{
 		_putchar((tmp / div) + 48);
+		i++;
 		tmp %= div;
 		div /= 10;
-		i++;
 	}
 	return (i);
 }
