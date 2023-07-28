@@ -65,8 +65,9 @@ int print_percent(va_list args)
 int print_d(va_list args)
 {
 	int i = 0;
+	int div = 1;
 	int numb = va_arg(args, int);
-	int tmp, rev_numb;
+	int tmp;
 
 	if (numb == 0)
 	{
@@ -80,17 +81,16 @@ int print_d(va_list args)
 		numb = -numb;
 	}
 	tmp = numb;
-	rev_numb = 0;
-	while (tmp > 0)
+	while (tmp / div > 9)
 	{
-		rev_numb = (rev_numb * 10) + (tmp % 10);
-		tmp /= 10;
-		i++;
+		div *= 10;
 	}
-	while (rev_numb > 0)
+	while (div > 0)
 	{
-		_putchar((rev_numb % 10) + 48);
-		rev_numb /= 10;
+		_putchar((tmp / div) + 48);
+		tmp %= d;
+		div /= 10;
+		i++;
 	}
 	return (i);
 }
