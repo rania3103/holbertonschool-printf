@@ -88,7 +88,7 @@ int print_d(va_list args)
 	while (div > 0)
 	{
 		_putchar((tmp / div) + 48);
-		tmp %= d;
+		tmp %= div;
 		div /= 10;
 		i++;
 	}
