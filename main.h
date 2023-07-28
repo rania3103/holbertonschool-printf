@@ -1,5 +1,5 @@
-#ifndef printf_f
-#define printf_f
+#ifndef PRINTF
+#define PRINTF
 #include <stdarg.h>
 #include <string.h>
 /**
@@ -16,9 +16,9 @@ typedef struct type_s
 int (*get_func(char s))(va_list);
 int _putchar(char c);
 int print_100(va_list args);
-int print_d(va_list args);
 int print_c(va_list args);
 int print_s(va_list args);
+int print_d(va_list args);
 int _printf(const char *format, ...);
 
 #endif
