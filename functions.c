@@ -69,11 +69,6 @@ int print_d(va_list args)
 	int numb = va_arg(args, int);
 	int tmp;
 
-	if (numb == 0)
-	{
-		_putchar('0');
-		return (1);
-	}
 	if (numb < 0)
 	{
 		_putchar('-');
@@ -85,7 +80,7 @@ int print_d(va_list args)
 	{
 		div *= 10;
 	}
-	while (div > 0)
+	while (div != 0)
 	{
 		_putchar((tmp / div) + 48);
 		tmp %= div;
