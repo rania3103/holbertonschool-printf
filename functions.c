@@ -47,11 +47,11 @@ int print_s(va_list args)
 	return (i);
 }
 /**
- * print_100 - prints a percentage
+ * print_percent - prints a percentage
  * @args:number of arguments
  * Return: 1 (on success)
 */
-int print_100(va_list args)
+int print_percent(va_list args)
 {
 	(void)args;
 	_putchar('%');
@@ -66,17 +66,31 @@ int print_d(va_list args)
 {
 	int i = 0;
 	int numb = va_arg(args, int);
+	int tmp, rev_numb;
 
+	if (numb == 0)
+	{
+		_putchar('0');
+		return (1);
+	}
 	if (numb < 0)
 	{
 		_putchar('-');
 		i++;
 		numb = -numb;
 	}
-	while (numb != 0)
+	tmp = numb;
+	rev_numb = 0;
+	while (tmp > 0)
 	{
-		numb /= 10;
+		rev_numb = (rev_numb * 10) + (tmp % 10);
+		tmp /= 10;
 		i++;
+	}
+	while (rev_numb > 0)
+	{
+		_putchar((rev_numb % 10) + 48);
+		rev_numb /= 10;
 	}
 	return (i);
 }
