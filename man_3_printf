@@ -1,7 +1,7 @@
 _printf
 
 NAME
-	   _printf - print formatted 
+	   _printf - Print formatted output
 
 SYNOPSIS
 	   #include "main.h"
@@ -24,7 +24,7 @@ DESCRIPTION
 	   %%        Prints a percent character '%'.
 
 RETURN VALUE
-	   The _printf function returns the number of characters printed on success, or a negative value on error.
+	   The _printf function returns the number of characters printed on success or a negative value on error.
 
 EXAMPLES
 	   Example 1: Printing an integer:
@@ -42,7 +42,7 @@ EXAMPLES
 	   Example 4: Printing a percent character:
 		   _printf("This is a percent sign: %%\n");
 
-AUTHOR
+AUTHORS
 		Mariam Charrada
 		Amal Elzowawi
 		Rania Abassi
