@@ -40,7 +40,7 @@ _printf("Holberton School TUNISIA");
 
 Holberton School TUNISIA
 ```c
-_printf("I learned %d programming languages.\n",3);
+_printf("I learned %d programming languages.\n", 3);
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
@@ -48,37 +48,37 @@ _printf("I learned %d programming languages.\n",3);
 I learned 3 programming languages.
 
 ```c
-_printf("%d",-3187963);
+_printf("%d", -3187963);
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
 -3187963
 ```c
-_printf("%c",65);
+_printf("%c", 65);
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
 A
 ```c
-_printf("%s","Hello world");
+_printf("%s", "Hello world");
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
 Hello world
 
 ```c
-_printf("%c is my favourite programming language.",'C');
+_printf("%c is my favourite programming language.", 'C');
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
 C is my favourite programming language.
 
 ```c
-_printf("Hello world %%");
+_printf("Hello world %%.");
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
-Hello world %
+Hello world %.
 
 
 
@@ -109,6 +109,6 @@ get_func.c : determines the appropriate printing function based on the provided 
 ## [Authors](https://via.placeholder.com/10/00b48a?text=+)
 
 - [@rania3103](https://www.github.com/rania3103)
-- [@mariamCHARRADA](https://www.github.com/mariamCHARRADA)
+- [@MariamCHARRADA](https://www.github.com/MariamCHARRADA)
 - [@amaalyy](https://www.github.com/amaalyy)
 
