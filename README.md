@@ -1,11 +1,11 @@
 
 # [_printf function](https://via.placeholder.com/10/00b48a?text=+)
 
-The _printf function prints the output to the standard output (stdout) stream,according to the format specified by the format string.
+The _printf function prints the output to the standard output (stdout) stream, based on the given format string.
 
-This version of _printf only handles basic formatting options and does not support advanced options like flag characters, field width, precision, or length modifiers.
+This version of _printf only handles basic formatting options and does not support advanced features like flag characters, field width, precision, or length modifiers.
 
-It's intended as a simple demonstration and not a full replacement for the standard printf function.
+This implementation is a simple demonstration and not a complete replacement for the standard printf function.
 
 It supports the following format specifiers:
 
@@ -34,11 +34,11 @@ To run tests, run the following command
 ## [Usage/Examples](https://via.placeholder.com/10/00b48a?text=+)
 
 ```c
-_printf("holberton school TUNISIA");
+_printf("Holberton School TUNISIA");
 ```
 [output:](https://via.placeholder.com/10/00b48a?text=+)
 
-holberton school TUNISIA
+Holberton School TUNISIA
 ```c
 _printf("I learned %d programming languages.\n",3);
 ```
