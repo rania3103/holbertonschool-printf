@@ -73,20 +73,17 @@ int print_d(va_list args)
 		i++;
 		tmp = -numb;
 	}
-	else
+	tmp = numb;
+	while (tmp / div > 9) /* checks if the leftmost digit of tmp is greater than 9 */
 	{
-		tmp = numb;
+		div *= 10; /* inceasing div, to move one place to the left along the number */
 	}
-	while (tmp / div > 9)
+	while (div >= 1) /* the loop continues until div becomes less than 1, meaning that all digits have been printed */
 	{
-		div *= 10;
-	}
-	while (div >= 1)
-	{
-		_putchar((tmp / div) + 48);
+		_putchar((tmp / div) + 48); /* extracts the leftmost digit of tmp, converts it to string and prints it */
 		i++;
-		tmp %= div;
-		div /= 10;
+		tmp %= div; /* gets the value of tmp without the leftmost digit */
+		div /= 10; /* moves div one place to the right to extract the next digit in the next iteration*/
 	}
 	return (i);
 }
