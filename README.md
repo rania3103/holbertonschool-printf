@@ -13,14 +13,13 @@ It supports the following format specifiers:
 
 | Format specifier            | Output                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| %c | Character |
-| [%s] | [String] |
+| [%c]() | [Character]() |
+| [%s](https://via.placeholder.com/10/00b48a?text=+) | [String](https://via.placeholder.com/10/0a192f?text=+) |
 | [%d](https://via.placeholder.com/10/00b48a?text=+) | [Decimal integer](https://via.placeholder.com/10/0a192f?text=+) |
 | [%i](https://via.placeholder.com/10/00b48a?text=+) | [integer](https://via.placeholder.com/10/0a192f?text=+) |
 | [%%](https://via.placeholder.com/10/00b48a?text=+) | [percent character '%'](https://via.placeholder.com/10/0a192f?text=+) |
 
 ## [Prototype](https://via.placeholder.com/10/00b48a?text=+)
-<span style="color: blue;">Prototype</span>
 int _printf(const char *format, ...);
 
 ## [Running Tests](https://via.placeholder.com/10/00b48a?text=+)
