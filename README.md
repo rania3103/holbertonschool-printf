@@ -22,9 +22,7 @@ It supports the following format specifiers:
 ## [Prototype](https://via.placeholder.com/10/00b48a?text=+)
 int _printf(const char *format, ...);
 
-## [Running Tests](https://via.placeholder.com/10/00b48a?text=+)
-
-To run tests, run the following command
+## [Compilation](https://via.placeholder.com/10/00b48a?text=+)
 
 ```bash
   gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
