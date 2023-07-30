@@ -17,7 +17,7 @@ It supports the following format specifiers:
 | [%s](https://via.placeholder.com/10/00b48a?text=+) | [String](https://via.placeholder.com/10/0a192f?text=+) |
 | [%d](https://via.placeholder.com/10/00b48a?text=+) | [Decimal integer](https://via.placeholder.com/10/0a192f?text=+) |
 | [%i](https://via.placeholder.com/10/00b48a?text=+) | [integer](https://via.placeholder.com/10/0a192f?text=+) |
-| [%%](https://via.placeholder.com/10/00b48a?text=+) | [percent followed by another percent](https://via.placeholder.com/10/0a192f?text=+) |
+| [%%](https://via.placeholder.com/10/00b48a?text=+) | [percent ](https://via.placeholder.com/10/0a192f?text=+) |
 
 ## [Prototype](https://via.placeholder.com/10/00b48a?text=+)
 int _printf(const char *format, ...);
