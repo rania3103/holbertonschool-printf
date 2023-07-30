@@ -20,6 +20,7 @@ It supports the following format specifiers:
 | [%%](https://via.placeholder.com/10/00b48a?text=+) | [percent character '%'](https://via.placeholder.com/10/0a192f?text=+) |
 
 ## [Prototype](https://via.placeholder.com/10/00b48a?text=+)
+<span style="color: blue;">Prototype</span>
 int _printf(const char *format, ...);
 
 ## [Running Tests](https://via.placeholder.com/10/00b48a?text=+)
