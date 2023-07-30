@@ -110,5 +110,5 @@ get_func.c : determines the appropriate printing function based on the provided 
 
 - [@rania3103](https://www.github.com/rania3103)
 - [@mariamCHARRADA](https://www.github.com/mariamCHARRADA)
-- [@amaly](https://www.github.com/amaly)
+- [@amaalyy](https://www.github.com/amaalyy)
 
