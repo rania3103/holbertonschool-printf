@@ -108,7 +108,7 @@ Hello world %.
 
 ## [Authors](https://via.placeholder.com/10/00b48a?text=+)
 
- [@rania3103](https://www.github.com/rania3103)
- [@MariamCHARRADA](https://www.github.com/MariamCHARRADA)
- [@amaalyy](https://www.github.com/amaalyy)
+- [@rania3103](https://www.github.com/rania3103)
+- [@MariamCHARRADA](https://www.github.com/MariamCHARRADA)
+- [@amaalyy](https://www.github.com/amaalyy)
 
