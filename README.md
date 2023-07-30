@@ -104,8 +104,6 @@ functions.c : a set of functions that handle specific format specifiers %d, %s, 
 get_func.c : determines the appropriate printing function based on the provided format specifier character.
 
 
-## [Learn more about printf](https://via.placeholder.com/10/00b48a?text=+)
-(https://cplusplus.com/reference/cstdio/printf/)
 
 
 ## [Authors](https://via.placeholder.com/10/00b48a?text=+)
