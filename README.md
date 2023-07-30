@@ -93,22 +93,22 @@ Hello world %.
 
 ## [Our files](https://via.placeholder.com/10/00b48a?text=+)
 
-- **main.h** : Header file.
+- **main.h** : Header file. It serves as an interface for other files to access the functions defined in the implementation.
 
-- **_printf.c** : Contains the main function that handles the custom format specifiers.
-
-
-- **functions.c** : Contains a set of functions that handle specific format specifiers: %d, %s, %c, and %%.
+- **_printf.c** : Contains the main function that handles the custom format specifiers: It takes the format string and any additional arguments, processes the format specifiers, and calls the appropriate functions to handle each specifier. 
 
 
-- **get_func.c** : Determines the appropriate printing function based on the provided format specifier.
+- **functions.c** : Contains a set of functions that handle specific format specifiers: %i, %d, %s, %c, and %%. Each function takes the corresponding argument and prints it in the desired format.
+
+
+- **get_func.c** : Determines the appropriate printing function based on the provided format specifier character (i, d, s, c, %).
 
 
 
 
 ## [Authors](https://via.placeholder.com/10/00b48a?text=+)
 
-- [@rania3103](https://www.github.com/rania3103)
-- [@MariamCHARRADA](https://www.github.com/MariamCHARRADA)
-- [@amaalyy](https://www.github.com/amaalyy)
+ [@rania3103](https://www.github.com/rania3103)
+ [@MariamCHARRADA](https://www.github.com/MariamCHARRADA)
+ [@amaalyy](https://www.github.com/amaalyy)
 
