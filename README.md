@@ -86,7 +86,7 @@ Hello world %.
 
 ## [Flowchart](https://via.placeholder.com/10/00b48a?text=+)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./printf_flowchart.jpg)
 
 
 ## [Our files](https://via.placeholder.com/10/00b48a?text=+)
@@ -109,4 +109,3 @@ Hello world %.
 - [@rania3103](https://www.github.com/rania3103)
 - [@MariamCHARRADA](https://www.github.com/MariamCHARRADA)
 - [@amaalyy](https://www.github.com/amaalyy)
-
