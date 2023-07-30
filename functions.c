@@ -64,10 +64,10 @@ int print_percent(va_list args)
 */
 int print_d(va_list args)
 {
-	int i = 0;
-	int div = 1;
+	unsigned int i = 0;
+	unsigned int div = 1;
 	int numb = va_arg(args, int);
-	int tmp = numb;
+	unsigned int tmp;
 
 	if (numb < 0)
 	{
@@ -75,11 +75,15 @@ int print_d(va_list args)
 		i++;
 		tmp = -numb;
 	}
+	else
+	{
+		tmp = numb;
+	}
 	while (tmp / div > 9)
 	{
 		div *= 10;
 	}
-	while (div != 0)
+	while (div >= 1)
 	{
 		_putchar((tmp / div) + 48);
 		i++;
