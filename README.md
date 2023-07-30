@@ -13,7 +13,7 @@ It supports the following format specifiers:
 
 | Format specifier            | Output                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| [%c] | [Character] |
+| %c | Character |
 | [%s] | [String] |
 | [%d](https://via.placeholder.com/10/00b48a?text=+) | [Decimal integer](https://via.placeholder.com/10/0a192f?text=+) |
 | [%i](https://via.placeholder.com/10/00b48a?text=+) | [integer](https://via.placeholder.com/10/0a192f?text=+) |
