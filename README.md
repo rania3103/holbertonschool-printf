@@ -13,8 +13,8 @@ It supports the following format specifiers:
 
 | Format specifier            | Output                                                               |
 | ----------------- | ------------------------------------------------------------------ |
-| [%c](https://via.placeholder.com/10/00b48a?text=+) | [Character](https://via.placeholder.com/10/0a192f?text=+) |
-| [%s](https://via.placeholder.com/10/00b48a?text=+) | [String](https://via.placeholder.com/10/0a192f?text=+) |
+| [%c] | [Character] |
+| [%s] | [String] |
 | [%d](https://via.placeholder.com/10/00b48a?text=+) | [Decimal integer](https://via.placeholder.com/10/0a192f?text=+) |
 | [%i](https://via.placeholder.com/10/00b48a?text=+) | [integer](https://via.placeholder.com/10/0a192f?text=+) |
 | [%%](https://via.placeholder.com/10/00b48a?text=+) | [percent character '%'](https://via.placeholder.com/10/0a192f?text=+) |
