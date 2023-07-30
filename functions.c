@@ -73,7 +73,10 @@ int print_d(va_list args)
 		i++;
 		tmp = -numb;
 	}
-	tmp = numb;
+	else
+	{
+		tmp = numb;
+	}
 	while (tmp / div > 9) /* checks if the leftmost digit of tmp is greater than 9 */
 	{
 		div *= 10; /* inceasing div, to move one place to the left along the number */
