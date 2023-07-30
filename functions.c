@@ -1,11 +1,9 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * _putchar - prints a character
+ * @c: the character to be printed
+ * Return: 1 (on success)
  */
 int _putchar(char c)
 {
@@ -47,7 +45,7 @@ int print_s(va_list args)
 	return (i);
 }
 /**
- * print_percent - prints a percentage
+ * print_percent - prints a percent character
  * @args:number of arguments
  * Return: 1 (on success)
 */
@@ -58,7 +56,7 @@ int print_percent(va_list args)
 	return (1);
 }
 /**
- * print_d - prints integer
+ * print_d - prints an integer
  * @args:number of arguments
  * Return: count of digits printed
 */
