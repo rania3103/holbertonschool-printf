@@ -93,15 +93,15 @@ Hello world %.
 
 ## [Our files](https://via.placeholder.com/10/00b48a?text=+)
 
-main.h : header file.
+- **main.h** : Header file.
 
-_printf.c : is the main function that handles the custom format specifiers %d, %s, %c, and %%.
-
-
-functions.c : a set of functions that handle specific format specifiers %d, %s, %c, and %%.
+- **_printf.c** : Contains the main function that handles the custom format specifiers.
 
 
-get_func.c : determines the appropriate printing function based on the provided format specifier character.
+- **functions.c** : Contains a set of functions that handle specific format specifiers: %d, %s, %c, and %%.
+
+
+- **get_func.c** : Determines the appropriate printing function based on the provided format specifier.
 
 
 
